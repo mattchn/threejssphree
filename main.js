@@ -91,4 +91,4 @@ window.addEventListener('mousemove', (e) => {
       let newColor = new THREE.Color(`rgb(${rgb.join(',')})`)
       gsap.to(mesh.material.color, newColor)
    }
-})g
+})
